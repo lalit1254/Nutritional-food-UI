@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: green;
+    padding: 15px;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Bradley Hand, cursive /* Change font family */
+    
+  }
+
+  .navbar-menu {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+     align-self: start;
+    
+    justify-content: space-between;
+    width: 450px;
+    padding: 15px;
+  }
+
+  .navbar-menu a {
+    color: green;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: Bradley Hand, cursive /* Change font family */
+  }
+
+  .rightnav{
+    width:30%;
+    text-align: right;
+    justify-content: center;
+   
+
+}
+
+  
+.logo{
+    width:15%;
+    
+  
+  
+   
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.btn {
+    background-color: rgb(240, 180, 70); /* Green */
+    display: inline-block;
+   border: 2px;
+   border-radius: 5px;
+  color: darkgreen;
+  font-weight: bold;
+  padding: 12px 12px;
+  
+  text-decoration: none;
+  font-size: 16px;
+
+}
+  nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: whitesmoke;
+    
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+   
+    
+    transition: all .5s ease 0;
+}
+nav a:hover{
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 14px;
+
+}
+a:nth-child(1){
+    left: 0px;
+    width: auto;
+   
+}
+
+
+.background-image {
+    background-image: url("https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1667334687-nurture-life-meal-delivery-service-1667334646.png?crop=0.651xw:1.00xh;0.306xw,0&resize=980:*"); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 600px; /* Adjust the height as needed */
+  }
+
+
+
+.banner-card{
+    
+    width: 20%;
+    position: relative;
+    top: 84px;
+    left: 370px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center; 
+}
+.banner-card img{
+    width: 410px;
+    height: 390px;
+    display: block;
+    padding: 20px 65px;
+  
+    border-radius:  20%;
+    margin: auto;
+    text-shadow: 4px 4px;
+}
+.banner-text{
+    position:fixed;
+    font-weight: bold;
+    top: 165px;
+    left: 490px;
+    font-size: 40px;
+
+    color: white;
+}
+@keyframes changeText {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .animated-text {
+    animation: changeText 2s ease-in-out infinite;
+    color: darkgreen;
+    left: 100px;
+  }
+
+  .btnn {
+    background-color: rgb(240, 180, 70); /* Green */
+    display: inline-block;
+   border: 5px;
+   left: -50px;
+   border-radius: 5px;
+  color: darkgreen;
+  font-weight: bold;
+  padding: 12px 12px;
+  
+  text-decoration: none;
+  font-size: 16px;
+
+
+}
+.last-text{
+    position:fixed;
+    font-weight: bold;
+    top: 510px;
+    left: 500px;
+    font-size: 20px;
+    font-weight: bold;
+
+    color: darkgreen;
+
+}
+.butt{
+    left: 500px;
+}
